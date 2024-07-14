@@ -18,9 +18,13 @@ const register = async (req, res) => {
             email: email,
             password: password
         });
-        return success(200, { uid: userRecord.uid }, res)
+        let result = { 
+            uid: userRecord.uid,
+            Status:"Succesfully Registered"
+         }
+        return success(200,result , res)
     } catch (err) {
-        return error(500, { error: error.message }, res)
+        return error(500, { error: err.message }, res)
     }
 }
 
