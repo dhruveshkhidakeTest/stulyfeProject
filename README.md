@@ -17,7 +17,7 @@ This is a simple Node.js application that uses Express, Firebase, and Sequelize 
 1. Clone the repository:
 
     bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/dhruveshkhidakeTest/stulyfeProject.git
     cd your-repo-name
     
 
